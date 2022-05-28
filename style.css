@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Syncopate&display=swap');html {
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Syncopate&display=swap');
+
+
+html {
     scroll-behavior: smooth;
 }
 
