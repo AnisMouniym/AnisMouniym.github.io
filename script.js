@@ -6,4 +6,5 @@ var typed3 = new Typed('.typed', {
     smartBackspace: true, // this is a default
     loop: false
   });
+
     
