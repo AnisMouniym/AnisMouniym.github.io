@@ -20,14 +20,6 @@ document.getElementById("reprendre")
   d1.style.display = "none"; 
 }, false);
 
-// // fonctionnalités du bouton charger une partie (qui ne fonctionne pas)
-// document.getElementById("charger")
-//         .addEventListener("click", function() {
-//   document.getElementById("home").hidden = true;
-//   document.getElementById("upload").hidden = false;
-//   d1.style.display = "none"; 
-// }, false);
-
 // fonctionnalités du bouton acceuil + demande de confirmation
 document.getElementById("accueil")
         .addEventListener("click", function() {

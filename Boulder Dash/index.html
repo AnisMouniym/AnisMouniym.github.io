@@ -16,7 +16,7 @@
 <body> 
 <!--musiques de fond et musique de situation-->
   <figure>
-    <audio autoplay loop src="/sound/main.mp3" id="music"></audio>
+    <audio autoplay loop src="sound/main.mp3" id="music"></audio>
     <audio src="sound/win.mp3" id="win"></audio>
     <audio src="sound/death.mp3" id="death"></audio>
 
@@ -32,7 +32,6 @@
   <div id="home">
     <button id="newgame">Nouvelle partie</button>
     <button id="reprendre">Reprendre la partie </button>
-    <!--<button id="charger">Charger un niveau</button>-->
   </div>
 
 <!-- écran de jeu cacher-->
@@ -54,22 +53,15 @@
     </div>
   </div>
 
-<!--bouton charger fichier (ne fonctionne pas)  
-  <form id="upload" hidden>
-    <label for="myfile">charger un fichier texte:</label>
-    <input type="file" id="file" name="myfile">
-    <input type="submit" value="Submit">
-  </form>
--->
-
 <!--lien vers le site du BDE MEGA-->  
   <footer id="surprise">
     <a href="https://bde-mega.fr" target="_blank">surprise</a>
   </footer>
 
 <!--importation des js-->  
-  <script type="text/javascript" src="./js/application.js"></script>
+  
   <script src="js/map.js"></script>
-  <script src="./js/mouvement.js"></script>  
+  <script src="js/mouvement.js"></script> 
+  <script src="js/application.js"></script>
 </body>  
 </html>

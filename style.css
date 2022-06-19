@@ -117,3 +117,9 @@ header .button:hover a {
     text-decoration: none;
     text-transform: none;
 }
+
+#logo {
+    margin-top: 20px;
+    width: 50%;
+    height: auto;
+}
