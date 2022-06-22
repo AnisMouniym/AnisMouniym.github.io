@@ -118,8 +118,21 @@ header .button:hover a {
     text-transform: none;
 }
 
+#typed {
+    display: flex;
+    flex-direction: column;
+}
+
 #logo {
     margin-top: 20px;
     width: 50%;
     height: auto;
+}
+
+#morpion {
+    border-radius: 10px;
+    display: flex;
+    position: absolute;
+    margin-left: 29%;
+    margin-top: 20px;
 }
