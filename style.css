@@ -132,8 +132,7 @@ header .button:hover a {
 #morpion {
     border-radius: 10px;
     display: flex;
-    position: absolute;
-    margin-left: 29%;
+    margin-left: 31%;
     margin-top: 20px;
 }
 
