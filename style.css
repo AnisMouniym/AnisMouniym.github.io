@@ -136,3 +136,7 @@ header .button:hover a {
     margin-left: 29%;
     margin-top: 20px;
 }
+
+#info {
+    max-width: fit-content;
+}
