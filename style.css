@@ -141,3 +141,15 @@ header .button:hover a {
 }
 
 /* *********************** LANGAGES *********************** */
+#langages {
+    padding: 80px 80px 80px 50px;
+    margin: 20px 0 0 6%;
+    width: 47%;
+    max-width: 640px;
+    background: linear-gradient(90deg,#dbe1ff 0%, rgba(219,225,255,0.91) 40%, rgba(219,225,255,0.86) 40%, #dbe1ff 90%);
+}
+
+#langages .bar {
+    padding: 10px 0 4px 0;
+    letter-spacing: 0.1em;
+}
