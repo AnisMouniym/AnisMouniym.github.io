@@ -43,5 +43,23 @@ li {
 }
 
 
+/* *********************** FORMATIONS *********************** */
+
+#formations {
+    padding: 80px 50px 80px 80px;
+    margin: 20px 10% 0 0;
+    width: 47%;
+    max-width: 640px;
+    background: linear-gradient(90deg,#dbe1ff 0%, rgba(219,225,255,0.91) 40%, rgba(219,225,255,0.86) 40%, #dbe1ff 90%);
+    clip-path: polygon(0 16%, 100% 6%, 98% 93%, 0% 100%);
+    float: right;
+}
+
+#formations .bar {
+    padding: 10px 0 4px 0;
+    letter-spacing: 0.1em;
+}
+
+
 
 

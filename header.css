@@ -69,22 +69,25 @@ h2 {
     box-shadow: 0 0 4px #111;  /*ombre*/
 }
 
-header > .button {
+header .button {
     margin-top: 45px;
 }
 
-header > .button a {
+header .button a {
     padding: 20px 80px;
-    border: 1px solid #b3b3b3;
+    border: 3px solid #b3b3b3;
     width: 300px;    
+    border-radius: 20px;
 }
 
-header > .button:hover a {
+header .button:hover a {
     background-color: #b3aca7;
     color: #e2dedb;
     transition: all O.3s ease-in-out;
     text-decoration: none;
 }
+
+/* *********************** TYPED *********************** */
 
 
 #typed > a:hover {
