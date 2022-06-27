@@ -29,7 +29,7 @@ li {
 
 /* *********************** LANGAGES ********************************************************************************************************************************************** */
 #langages {
-    padding: 80px 80px 80px 50px;
+    padding: 90px 80px 50px 50px;
     margin: 20px 0 0 6%;
     width: 47%;
     max-width: 640px;
@@ -48,14 +48,16 @@ li {
 #formations {
     position: relative;
     top: -400px;
-    padding: 80px 50px 80px 80px;
-    margin: 20px 0 0 0;
-    width: 40%;
-    max-width: 640px;
+    right: 0.1em;
+    padding: 80px 50px 80px 40px;
+    margin: 20px 0 0 60%;
+    width: 47%;
+    max-width: 500px;
     background: linear-gradient(90deg,rgba(90, 115, 240, 0.86) 0%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 90%);
     clip-path: polygon(0 6%, 75% 10%, 75% 100%, 0% 90%);
-    float: right;
-    
 }
 
 
+h4 {
+    padding-top: 20px;
+}
