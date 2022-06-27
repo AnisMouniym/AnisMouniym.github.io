@@ -46,12 +46,14 @@ li {
 /* *********************** FORMATIONS ***************************************************************************************************************************** */
 
 #formations {
+    position: relative;
+    top: -400px;
     padding: 80px 50px 80px 80px;
-    margin: 20px 10% 0 0;
-    width: 47%;
+    margin: 20px 0 0 0;
+    width: 40%;
     max-width: 640px;
     background: linear-gradient(90deg,rgba(90, 115, 240, 0.86) 0%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 90%);
-    clip-path: polygon(0 6%, 80% 16%, 80% 100%, 0% 93%);
+    clip-path: polygon(0 6%, 75% 10%, 75% 100%, 0% 90%);
     float: right;
     
 }
