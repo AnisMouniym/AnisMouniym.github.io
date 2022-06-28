@@ -100,6 +100,10 @@ header .button:hover a {
     flex-direction: column;
 }
 
+#typed p {
+    margin-top: 16%;
+}
+
 #logo {
     margin-top: 20px;
     width: 50%;
