@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Syncopate&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Syncopate&family=Titan+One&display=swap');
 @import url(./footer.css);
 @import url(./header.css);
 
@@ -90,4 +90,13 @@ li {
 
 .data-span {
     font-size: 1.8em;
+}
+
+
+/* *********************** Autres Compétences ***************************************************************************************************************************** */
+
+
+
+#other-skills {
+    margin-top: 25%;
 }
