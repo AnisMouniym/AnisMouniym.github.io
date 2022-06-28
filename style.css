@@ -99,4 +99,9 @@ li {
 
 #other-skills {
     margin-top: 25%;
+
+}
+#other-skills h3 {
+    font-family: 'Titan One', sans-serif;
+    font-style: italic;
 }
