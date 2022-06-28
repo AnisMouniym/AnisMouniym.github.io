@@ -99,9 +99,26 @@ li {
 
 #other-skills {
     margin-top: 25%;
+    padding: 50px 100px 100px 100px;
+    width: 100%;
+    background-color: #375E97;
+    clip-path: polygon(0 17%, 100% 0, 100% 84%, 0 100%);
+
 
 }
 #other-skills h3 {
     font-family: 'Titan One', sans-serif;
     font-style: italic;
+    font-size: 2.5em;
+    transform: rotate(-5deg);
+    padding: 40px 0;
+    text-shadow: -1px 1px 0px maroon;
+    color: orange;
+}
+
+.cloud {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 2em;
+    text-transform: uppercase;
 }
