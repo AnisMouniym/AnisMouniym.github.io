@@ -81,11 +81,15 @@ header .button a {
     width: 300px;    
     border-radius: 20px;
 }
+.button {
+    width: 188.61px;
+    margin: 0 auto;
+}
 
 header .button:hover a {
     background-color: #b3aca7;
     color: #e2dedb;
-    transition: all O.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
 

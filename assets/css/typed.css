@@ -9,6 +9,7 @@
 #typed {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
 }
 
 #typed p {
