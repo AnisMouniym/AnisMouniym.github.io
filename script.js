@@ -17,7 +17,7 @@ window.addEventListener('scroll',function() {
 
 // TYPED
 var typed3 = new Typed('.typed', {
-    strings: ["Je suis un étudiant ",'Je suis un développeur','Je suis Mouniym Anis ! '],
+    strings: ["I'm a student ","I'm a programmer","I'm  Mouniym Anis ! "],
     typeSpeed: 30,
     backSpeed: 60,
     smartBackspace: true, // this is a default
