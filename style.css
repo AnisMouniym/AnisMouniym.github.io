@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Josefin+Sans&family=Syncopate&family=Titan+One&display=swap');
-@import url(./footer.css);
-@import url(./header.css);
+@import url(/assets/css/footer.css);
+@import url(/assets/css/header.css);
+@import url(/assets/css/langages.css);
+@import url(/assets/css/formations.css);
+@import url(/assets/css/oskills.css);
+@import url(/assets/css/hobbies.css);
+@import url(/assets/css/typed.css);
 
 html {
     scroll-behavior: smooth;
@@ -27,172 +32,10 @@ li {
 }
 
 
-/* *********************** LANGAGES ********************************************************************************************************************************************** */
-#langages {
-    padding: 90px 80px 50px 50px;
-    margin: 20px 0 0 6%;
-    width: 47%;
-    max-width: 640px;
-    background: linear-gradient(90deg,#dbe1ff 0%, rgba(219,225,255,0.91) 40%, rgba(219,225,255,0.86) 40%, #dbe1ff 90%);
-    clip-path: polygon(0 16%, 100% 6%, 98% 93%, 0% 100%);
-}
-
-#langages .bar {
-    padding: 10px 0 4px 0;
-    letter-spacing: 0.1em;
-}
-
-
-/* *********************** FORMATIONS ***************************************************************************************************************************** */
-
-#formations {
-    position: relative;
-    float: right;
-    top: -400px;
-    padding: 80px 50px 80px 40px;
-    width: 45%;
-    margin-right: 7%;
-    max-width: 500px;
-    background: linear-gradient(90deg,rgba(90, 115, 240, 0.86) 0%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 90%);
-    clip-path: polygon(0 6%, 75% 10%, 75% 100%, 0% 90%);
-}
-
-#ESIREM {
-    padding-top: 20px;
-}
-
-#autodidacte {
-    padding-top: 20px;
-}
-#openc {
-    padding-top: 20px;
-}
-
-#formations h4{
-    letter-spacing: 0.01em;
-    padding-bottom: 10px;
-}
-
-.counter {
-    display: flex;
-    text-align: center;
-}
-
-.data {
-    border: 2px solid #35b4;
-    width: 130px;
-    margin: 0 4%;
-}
-
-.counter-value {
-    font-size: 2em;
-}
-
-.data-span {
-    font-size: 1.8em;
-}
-
-
-/* *********************** Autres Compétences ***************************************************************************************************************************** */
 
 
 
-#other-skills {
-    margin-top: 25%;
-    padding: 50px 100px 100px 100px;
-    width: 100%;
-    background-color: #375E97;
-    clip-path: polygon(0 17%, 100% 0, 100% 84%, 0 100%);
 
 
-}
-#other-skills h3 {
-    font-family: 'Titan One', sans-serif;
-    font-style: italic;
-    font-size: 2.5em;
-    transform: rotate(-5deg);
-    padding: 40px 0;
-    text-shadow: -1px 1px 0px maroon;
-    color: orange;
-}
 
-.cloud {
-    text-align: center;
-    padding: 50px 0;
-    font-size: 2em;
-    text-transform: uppercase;
-}
 
-/* *********************** Hobbies ***************************************************************************************************************************** */
-#hobbies {
-    padding: 50px 50px 250px 50px;
-    margin: -150px 0 -90px 0;
-    clip-path: polygon(0 11%, 100% 0, 100% 66%, 0 83%);
-    background: #ffbb00;
-}
-#hobbies img { 
-    width: 200px;
-}
-#hobbies h3 {
-    font-family: 'Titan One', sans-serif;
-    font-style: italic;
-    font-size: 2.5em;
-    transform: rotate(-2.5deg);
-    padding: 10px 0;
-    margin: 0 0 10% 6%;
-    text-shadow: -1px 1px 0px maroon;
-    color: #375E97;
-}
-
-.pictures {
-    display: flex;
-    justify-content: center;
-}
-
-.flip-box {
-    margin: 0 70px 0;
-    height: fit-content;
-}
-
-.flip-box-back p {
-    text-transform: uppercase;
-    font-size-adjust: auto;
-    display: inline-block;
-    padding: 40px 0;
-
-}
-
-.flip-box-back {
-    color: white;
-    transform: rotateY(180deg);
-    text-align: center;
-}
-
-.flip-box-front, .flip-box-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-}
-
-.flip-box {
-    overflow: hidden;
-    background-color: transparent;
-    width: 100%;
-    max-width: 300px;
-    height: max-content;
-    perspective: 2000px;
-}
-
-.flip-box-inner {
-    position: relative;
-    width: 100%;
-    max-width: 300px;
-    height: 100px;
-    transition: transform 0.5s;
-    transform-style: preserve-3d;
-}
-
-.flip-box:hover .flip-box-inner {
-    transform: rotateY(180deg);
-}
