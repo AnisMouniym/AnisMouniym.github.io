@@ -1,11 +1,6 @@
 /* *********************** TYPED ***************************************************************************************************************************** */
 
 
-#typed > a:hover {
-    text-decoration: none;
-    text-transform: none;
-}
-
 #typed {
     display: flex;
     flex-direction: column;
@@ -14,19 +9,6 @@
 
 #typed p {
     margin-top: 16%;
-}
-
-#logo {
-    margin-top: 20px;
-    width: 50%;
-    height: auto;
-}
-
-#morpion {
-    border-radius: 10px;
-    display: flex;
-    margin-left: 31%;
-    margin-top: 20px;
 }
 
 #info {
