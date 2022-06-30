@@ -67,6 +67,7 @@
 
 #morpion .plus, #boulder .plus {
     margin: 40px 80px 0;
+    color: rgb(0, 0, 102);
 }
 
 
