@@ -76,14 +76,15 @@ footer p {
 
 #end {
     margin-top: 70px;
-    margin-left: 110px;
+    margin-left: 145px;
 }
 
 #contact {
     margin-bottom: 60px;
+    margin-left: 5px;
     text-transform: uppercase;
-    color: #375E97;
     font-size: 1.5em;
     font-weight: bolder;
     padding: 2px 0;
+
 }
