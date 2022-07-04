@@ -6,34 +6,43 @@
     position: relative;
     float: right;
     top: -400px;
-    padding: 80px 50px 80px 40px;
-    width: 45%;
-    margin-right: 7%;
-    max-width: 500px;
+    padding: 80px 0px 80px 20px;
+    margin: 20px 7% 0 0;
+    width: 340px;
     background: linear-gradient(90deg,rgba(90, 115, 240, 0.86) 0%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 90%);
-    clip-path: polygon(0 6%, 75% 10%, 75% 100%, 0% 90%);
+    clip-path: polygon(0 6%, 100% 10%, 100% 100%, 0% 90%);
+}
+
+#formations div {
+    max-width: 340px;
 }
 
 #ESIREM {
     padding-top: 20px;
 }
 
+
 #autodidacte {
     padding-top: 20px;
 }
+
+
 #openc {
     padding-top: 20px;
 }
+
 
 #formations h4{
     letter-spacing: 0.01em;
     padding-bottom: 10px;
 }
 
+
 .counter {
     display: flex;
     text-align: center;
 }
+
 
 .data {
     border: 2px solid #35b4;
@@ -41,9 +50,11 @@
     margin: 0 4%;
 }
 
+
 .counter-value {
     font-size: 2em;
 }
+
 
 .data-span {
     font-size: 1.8em;
