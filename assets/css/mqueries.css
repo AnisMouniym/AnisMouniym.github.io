@@ -1,0 +1,17 @@
+/* *********************** MEDIA QUERIES ***************************************************************************************************************************** */
+@media screen and (max-width: 1100px) {
+    .infos h5, .typed {
+        font-size: 0.9em;
+    }
+    #langages {
+        margin-left: 1%;
+    }
+    #formations {
+        margin-right: 2%;
+    }
+    .network {
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+
+}

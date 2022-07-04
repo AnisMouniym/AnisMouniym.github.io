@@ -7,6 +7,7 @@
 @import url(/assets/css/hobbies.css);
 @import url(/assets/css/typed.css);
 @import url(/assets/css/projects.css);
+@import url(/assets/css/mqueries.css);
 
 html {
     scroll-behavior: smooth;
@@ -18,6 +19,7 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
+    height: 100vh;
 }
 
 h2, h3 {
