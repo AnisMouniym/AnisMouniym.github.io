@@ -27,8 +27,8 @@
 
 
 #projects a {
-    width: 400px;
-    max-height: 50px;
+    width: 100px;
+    height: 50px;
 }
 
 
@@ -45,7 +45,7 @@
 
 
 #logo-boulder {
-    width: 60%;
+    width: 230px;
 }
 
 
@@ -72,7 +72,7 @@
 
 
 #logo-morpion {
-    width: 30%;
+    width: 150px;
     margin-left: 50px;
 }
 
