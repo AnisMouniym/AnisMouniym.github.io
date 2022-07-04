@@ -41,11 +41,16 @@
 #boulder p {
     font-weight: bold;
     margin-top: 30px;
+    font-style: italic;
+    margin-left: 23%;
+    max-width: 30%;
+
 }
 
 
 #logo-boulder {
     width: 230px;
+    margin-left: 15px;
 }
 
 
@@ -58,9 +63,11 @@
 #morpion p {
     display: flex;
     text-align: center;
-    max-width: 35%;
+    max-width: 31%;
     font-weight: bold;
+    font-style: italic;
     margin-top: 30px;
+    margin-left: 20%;
 
 }
 

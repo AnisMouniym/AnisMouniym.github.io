@@ -18,7 +18,6 @@ body {
     font-family: 'Josefin Sans', sans-serif;
     background: url(media/header.jpg) no-repeat fixed 50% 50%;
     background-size: cover;
-    height: 100vh;
 }
 
 h2, h3 {
