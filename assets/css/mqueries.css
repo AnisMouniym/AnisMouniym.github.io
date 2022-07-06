@@ -41,4 +41,43 @@
         width: 120px;
         margin-left: 50px;
     }
+    .footer-icons {
+        max-width: 40%;
+    }
+    .photo img {
+        max-width: 90%;
+    }
+    #formations {
+        margin: 20px 10% 0 0;
+    }
+    #langages {
+        margin: 20px 0 0 8%;
+    }
+}
+
+
+@media screen and (max-width: 520px) {
+    .navbar {
+        display: none !important;
+    }
+    .fixed-top {
+        position: unset !important;
+    }
+    h1 {
+        padding-top: 10px;
+    }
+    #formations {
+        display: block;
+        top: 0;
+    }
+    #langages {
+        clip-path: none;
+        width: 400px;
+        padding: 10px 10px 10px 30px;
+        margin-top: 10%;
+    }
+    #formations {
+        clip-path: none;
+        width: max-content;
+    }
 }
