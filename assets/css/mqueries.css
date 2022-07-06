@@ -13,5 +13,32 @@
         font-size: 2em;
         padding: 10px 20px;
     }
-
+    #other-skills h3 {
+        margin-top: 5%;
+    }
+    #hobbies img {
+        width: 100px;
+    }
+    .flip-box-inner {
+        height: 50px;
+    }
+    .flip-box-back p {
+        padding: 20px 0;
+        font-size: 0.8em;
+    }
+    #foot-us p {
+        padding: 10px 0;
+        font-size: 0.8em;
+    }
+    #projects h3 {
+        margin-top: 5%;
+    }
+    #logo-boulder {
+        width: 200px;
+        margin-top: 40px;
+    }
+    #logo-morpion {
+        width: 120px;
+        margin-left: 50px;
+    }
 }
