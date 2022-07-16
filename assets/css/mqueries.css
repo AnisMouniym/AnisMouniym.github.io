@@ -70,20 +70,22 @@
         display: block;
         top: 0;
         clip-path: none;
-        width: 400px;
-        margin-left: 90%;
+        width: 100%;
         margin-right: 0;
+        float:none;
+        padding-left: 50px;
     }
     #langages {
         clip-path: none;
-        width: 400px;
+        width: 100%;
         padding: 10px 10px 10px 30px;
         margin-top: 30%;
+        margin-left: 0;
     }
     #other-skills {
         clip-path: none;
         padding: 10px 50px 50px 50px;
-        margin-top: 700px;
+        margin-top: 20px;
     }
     #other-skills h3 {
         padding: 5px 0 10px;
