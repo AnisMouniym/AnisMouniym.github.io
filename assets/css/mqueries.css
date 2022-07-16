@@ -109,4 +109,18 @@
         flex-direction: column;
     }
 
+    #projects {
+        margin: 110px 0 0 0;
+        padding: 0;
+        clip-path: none;
+    }
+
+    .arrow {
+        margin-right: 2px;
+    }
+
+    .footer-icons div{
+        margin: 5px;
+    }
+
 }
