@@ -84,15 +84,18 @@
     }
     #other-skills {
         clip-path: none;
-        padding: 10px 50px 50px 50px;
+        padding: 0 0 0 10px;
         margin-top: 20px;
+        
     }
     #other-skills h3 {
         padding: 5px 0 10px;
         transform: none;
         margin-top: 0;
     }
-    .cloud span {
-        margin: 0 0 0 0;
+    .cloud {
+        margin: 0;
+        padding: 0;
+        text-transform: none;
     }
 }
