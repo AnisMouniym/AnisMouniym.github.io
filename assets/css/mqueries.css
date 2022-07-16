@@ -66,6 +66,7 @@
     h1 {
         padding-top: 10px;
     }
+
     #formations {
         display: block;
         top: 0;
@@ -75,6 +76,7 @@
         float:none;
         padding-left: 50px;
     }
+
     #langages {
         clip-path: none;
         width: 100%;
@@ -82,6 +84,7 @@
         margin-top: 30%;
         margin-left: 0;
     }
+
     #other-skills {
         clip-path: none;
         padding: 0 0 0 10px;
@@ -98,4 +101,12 @@
         padding: 0;
         text-transform: none;
     }
+
+    #hobbies {
+        top: 0;
+        margin-top: 20px;
+        clip-path: none;
+        flex-direction: column;
+    }
+
 }
