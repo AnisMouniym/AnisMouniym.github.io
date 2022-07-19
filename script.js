@@ -27,3 +27,21 @@ var typed3 = new Typed('.typed', {
 
 // AOS
 AOS.init();
+
+
+//ARROW
+window.addEventListener("scroll", function() {
+  let scrollTop = window.pageXOffset ||
+  this.document.documentElement.scrollTop;
+
+  let fleche = document.getElementById('arrow')
+  
+  console.log(scrollTop)
+  console.log(fleche.hidden)
+
+  if (scrollTop > 400 ) {
+  fleche.hidden = false
+  } else{
+    fleche.hidden = true
+  }
+});
