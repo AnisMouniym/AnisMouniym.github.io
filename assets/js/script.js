@@ -36,8 +36,8 @@ window.addEventListener("scroll", function() {
 
   let fleche = document.getElementById('arrow')
   
-  console.log(scrollTop)
-  console.log(fleche.hidden)
+  // console.log(scrollTop)
+  // console.log(fleche.hidden)
 
   if (scrollTop > 400 ) {
   fleche.hidden = false
@@ -52,6 +52,17 @@ window.addEventListener("scroll", function() {
     fleche.style.opacity = 0.6
   }
 
-  
-  
 });
+
+
+//ZOOM
+const image = document.getElementById("photo")
+image.addEventListener("click",function() {
+
+  if (image.style.position != "fixed") {
+    image.style.position = "fixed"
+  } else {
+    image.style.position = "absolute"
+  }
+
+})
