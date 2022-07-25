@@ -21,7 +21,7 @@ var typed3 = new Typed('.typed', {
     typeSpeed: 30,
     backSpeed: 60,
     smartBackspace: true, // this is a default
-    loop: false
+    loop: true
   });
 
 
