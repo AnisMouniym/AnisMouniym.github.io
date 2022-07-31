@@ -128,4 +128,23 @@
         font-size: 0.75em;
     }
 
+    .picture {
+        flex-direction: column;
+    }
+
+    .flip-box-back {
+        width: 50px;
+    }
+
+    .flip-box-inner {
+        width: 50px;
+        flex-direction: column;
+        
+    }
+
+    .flip-box {
+        width: 50px;
+        overflow: visible;
+    }
+
 }
