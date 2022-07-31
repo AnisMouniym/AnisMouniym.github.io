@@ -91,6 +91,10 @@
         margin-top: 20px;
         
     }
+
+    #other-skills span {
+        margin: 0px;  
+    }
     #other-skills h3 {
         padding: 5px 0 10px;
         transform: none;
@@ -139,7 +143,6 @@
     .flip-box-inner {
         width: 10px;
         flex-direction: column;
-
     }
 
     .flip-box {
