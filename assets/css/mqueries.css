@@ -133,17 +133,16 @@
     }
 
     .flip-box-back {
-        width: 50px;
+        overflow: visible;
     }
 
     .flip-box-inner {
-        width: 50px;
+        width: 10px;
         flex-direction: column;
-        
+
     }
 
     .flip-box {
-        width: 50px;
         overflow: visible;
     }
 
