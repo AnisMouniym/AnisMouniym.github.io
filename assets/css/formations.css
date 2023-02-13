@@ -5,16 +5,16 @@
 #formations {
     position: relative;
     float: right;
-    top: -400px;
+    top: -600px;
     padding: 80px 0px 80px 20px;
     margin: 20px 7% 0 0;
-    width: 340px;
+    width: 400px;
     background: linear-gradient(90deg,rgba(90, 115, 240, 0.86) 0%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 90%);
     clip-path: polygon(0 6%, 100% 10%, 100% 100%, 0% 90%);
 }
 
 #formations div {
-    max-width: 340px;
+    max-width: 400px;
 }
 
 #ESIREM {
@@ -50,7 +50,9 @@
     margin: 0 4%;
 }
 
-
+#level {
+    font-size: 1.895em;
+}
 .counter-value {
     font-size: 2em;
 }
