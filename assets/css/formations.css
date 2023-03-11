@@ -9,12 +9,14 @@
     padding: 80px 0px 80px 20px;
     margin: 20px 7% 0 0;
     width: 400px;
-    background: linear-gradient(90deg,rgba(90, 115, 240, 0.86) 0%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 40%, rgba(90, 115, 240, 0.86) 90%);
+    background: linear-gradient(90deg,rgba(54, 69, 145, 0.86) 0%, rgba(54, 69, 145, 0.86) 40%, rgba(54, 69, 145, 0.86) 40%, rgba(54, 69, 145, 0.86) 90%);
     clip-path: polygon(0 6%, 100% 10%, 100% 100%, 0% 90%);
 }
 
 #formations div {
     max-width: 400px;
+    color:  #cad2fa;
+    
 }
 
 #ESIREM {
@@ -31,6 +33,9 @@
     padding-top: 20px;
 }
 
+#formations h3 {
+    color: #cad2fa;
+}
 
 #formations h4{
     letter-spacing: 0.01em;
@@ -45,7 +50,7 @@
 
 
 .data {
-    border: 2px solid #35b4;
+    border: 2px solid rgba(38, 65, 144, 0.267);
     width: 130px;
     margin: 0 4%;
 }
