@@ -11,7 +11,7 @@ footer {
 .footer-icons {
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     max-width: 60%;
 }
 
