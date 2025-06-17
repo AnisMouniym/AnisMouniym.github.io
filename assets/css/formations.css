@@ -9,7 +9,7 @@
     padding: 80px 0px 80px 20px;
     margin: 20px 7% 0 0;
     width: 400px;
-    background: linear-gradient(90deg,rgba(54, 69, 145, 0.86) 0%, rgba(54, 69, 145, 0.86) 40%, rgba(54, 69, 145, 0.86) 40%, rgba(54, 69, 145, 0.86) 90%);
+    background: linear-gradient(90deg,rgba(39,123,222, 0.86) 0%, rgba(39,123,222, 0.86) 40%, rgba(39,123,222, 0.86) 40%, rgba(39,123,222, 0.86) 90%);
     clip-path: polygon(0 6%, 100% 10%, 100% 100%, 0% 90%);
 }
 
